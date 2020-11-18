@@ -1,0 +1,14 @@
+baseURL = "http://example.org/"
+languageCode = "en-us"
+title = "My New Hugo Site"
+theme = "aether"
+DefaultContentLanguage = "en"
+[languages]
+  [languages.en]
+    title = "My New Blog"
+    languageName = "English"
+    weight = 1
+  [languages.ch]
+    title = "我的新博客"
+    languageName = "Chinese"
+    weight = 2
